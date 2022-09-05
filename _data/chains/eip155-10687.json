@@ -1,0 +1,30 @@
+{
+  "name": "Point Testnet",
+  "chain": "Point",
+  "rpc": ["https://://xnet-uranus-1.point.space:8545"],
+  "faucets": ["https://faucet.pointnetwork.io"],
+  "nativeCurrency": {
+    "name": "x-net-uranus",
+    "symbol": "tEVMOS",
+    "decimals": 18
+  },
+  "infoURL": "https://pointnetworki.io",
+  "shortName": "x-net-uranus",
+  "chainId": 10687,
+  "networkId": 10687,
+  "icon": "point",
+  "explorers": [
+    {
+      "name": "Point EVM Explorer",
+      "url": "https://explorer.pointnetwork.io",
+      "standard": "EIP3091",
+      "icon": "point"
+    },
+    {
+      "name": "Point Cosmos Explorer",
+      "url": "https://explorer.pointnetwork.io",
+      "standard": "none",
+      "icon": "point"
+    }
+  ]
+}
